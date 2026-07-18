@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-18T23:20:23Z",
+  "apps": [
+    {
+      "id": "geometric-workbench",
+      "name": "ARTEMIS Geometric Workbench",
+      "family": "geometry-fabrication",
+      "version": "5.8",
+      "source_type": "standalone-html",
+      "repository": "artemis-geometric-workbench",
+      "canonical_domain": "workbench.artemis.agoraxai.com",
+      "mirror_url": "https://artemis-geometric-workbench.vercel.app",
+      "artemis_product_page": "https://artemis.agoraxai.com/workbench",
+      "status": "public-technical-preview",
+      "exposure": "public",
+      "notes": "Custom domain pending DNS per latest deployment report."
+    },
+    {
+      "id": "geodesic-workbench-legacy-3-6-1",
+      "name": "ARTEMIS Intelligent Systems Workbench",
+      "family": "geometry-fabrication",
+      "version": "3.6.1",
+      "source_type": "standalone-html",
+      "repository": "artemis-geometric-workbench",
+      "canonical_domain": null,
+      "status": "archive-candidate",
+      "exposure": "internal",
+      "notes": "Legacy dowel/socket connector and shop-card workbench."
+    },
+    {
+      "id": "diana-threejs-viewer",
+      "name": "ARTEMIS Diana GLB Viewer",
+      "family": "cultural-intelligence",
+      "version": "1.0",
+      "source_type": "embedded-glb-html",
+      "repository": "artemis-diana",
+      "canonical_domain": "diana.artemis.agoraxai.com",
+      "status": "internal-preview",
+      "exposure": "controlled-demo",
+      "notes": "Preserve model license and attribution."
+    },
+    {
+      "id": "diana-moonshot-demonstrator",
+      "name": "ARTEMIS Diana Animated Intelligence Demonstrator",
+      "family": "cultural-intelligence",
+      "version": "3",
+      "source_type": "embedded-glb-html",
+      "repository": "artemis-diana",
+      "canonical_domain": "diana.artemis.agoraxai.com",
+      "status": "internal-preview",
+      "exposure": "controlled-demo",
+      "notes": "Cinematic 2D-to-3D demonstrator."
+    },
+    {
+      "id": "dep-sewer-utility-bridge-rc8-4",
+      "name": "ARTEMIS Utility Intelligence Bridge",
+      "family": "infrastructure-intelligence",
+      "version": "RC8.4",
+      "source_type": "standalone-html",
+      "repository": "artemis-utility-intelligence",
+      "canonical_domain": "utilities.artemis.agoraxai.com",
+      "status": "controlled-demo",
+      "exposure": "controlled-demo",
+      "notes": "Review GIS, actuals, field claims, and project data before public release."
+    },
+    {
+      "id": "dep-sewer-utility-bridge-public-demo",
+      "name": "ARTEMIS Utility Intelligence Bridge Public Demo",
+      "family": "infrastructure-intelligence",
+      "version": "RC8",
+      "source_type": "standalone-html",
+      "repository": "artemis-utility-intelligence",
+      "canonical_domain": "utilities.artemis.agoraxai.com",
+      "status": "sanitization-review",
+      "exposure": "public-demo",
+      "notes": "Underlying data still requires verification."
+    },
+    {
+      "id": "dynamic-intelligence-bridges-phase-2",
+      "name": "ARTEMIS Dynamic Intelligence Bridges",
+      "family": "platform-bridges",
+      "version": "Phase 2 RC4",
+      "source_type": "zip-package",
+      "repository": "artemis-dynamic-bridges",
+      "canonical_domain": null,
+      "status": "intake-required",
+      "exposure": "internal",
+      "notes": "Inventory ZIP before assignment."
+    },
+    {
+      "id": "dynamic-intelligence-bridges-phase-3",
+      "name": "ARTEMIS Dynamic Intelligence Bridges \u2014 DEP Sewer",
+      "family": "platform-bridges",
+      "version": "Phase 3 RC5",
+      "source_type": "zip-package",
+      "repository": "artemis-dynamic-bridges",
+      "canonical_domain": null,
+      "status": "intake-required",
+      "exposure": "internal",
+      "notes": "Inventory ZIP before assignment."
+    }
+  ]
+}

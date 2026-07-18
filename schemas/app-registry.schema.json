@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARTEMIS App Registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "apps"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "apps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "family",
+          "version",
+          "source_type",
+          "repository",
+          "status",
+          "exposure"
+        ]
+      }
+    }
+  }
+}
