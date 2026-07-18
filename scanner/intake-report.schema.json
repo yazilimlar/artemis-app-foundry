@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARTEMIS Intake Report",
+  "type": "object",
+  "required": [
+    "scanner_version",
+    "reports"
+  ],
+  "properties": {
+    "scanner_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "reports": {
+      "type": "array"
+    }
+  }
+}

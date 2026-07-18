@@ -1,0 +1,721 @@
+{
+  "scanner_version": "1.0.0",
+  "generated_at": "2026-07-18T23:41:25+00:00",
+  "input_count": 7,
+  "reports": [
+    {
+      "app_id": "artemis-intelligent-systems-workbench-v3-6-1-dowel-socket-connector-system-neo-classical-tech-br",
+      "source_file": "ARTEMIS_v3_6_1_download(3).html",
+      "source_path": "/mnt/data/ARTEMIS_v3_6_1_download(3).html",
+      "sha256": "07a6a57f7e24ddd1882835d071931978f97c7ca2c6c80197f6acf10ab6f95265",
+      "size_bytes": 586189,
+      "file_type": "html",
+      "title": "ARTEMIS Intelligent Systems Workbench v3.6.1 \u2014 Dowel/Socket Connector System \u00b7 Neo-Classical Tech Brand DNA \u00b7 Goldberg Geodesic Hex/Pent Dome \u00b7 Branded Print-Safe Shop Cards",
+      "family": "geometry-fabrication",
+      "recommended_repository": "artemis-geometric-workbench",
+      "recommended_exposure": "public-preview-candidate",
+      "data_risk": "low",
+      "data_risk_score": 3,
+      "sensitive_term_hits": [
+        {
+          "term": "gis",
+          "count": 3,
+          "weight": 1
+        }
+      ],
+      "external_dependencies": [
+        "https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+      ],
+      "external_domains": [
+        "cdn.jsdelivr.net",
+        "cdnjs.cloudflare.com",
+        "www.w3.org"
+      ],
+      "embedded_data_uri_types": [
+        "image/png",
+        "image/webp"
+      ],
+      "embedded_asset_count_estimate": 5,
+      "secret_pattern_findings": [],
+      "license_attribution_terms": [
+        "gpl"
+      ],
+      "capabilities": {
+        "threejs": true,
+        "maps": false,
+        "charts": false,
+        "local_storage": false,
+        "file_import_export": true,
+        "fetch_calls": 0,
+        "console_calls": 2
+      },
+      "readiness": {
+        "syntax_validation": "not-browser-executed",
+        "browser_test_required": true,
+        "license_review_required": true,
+        "sanitization_required": false,
+        "deployment_recommendation": "public-preview-after-QA"
+      }
+    },
+    {
+      "app_id": "a-r-t-e-m-i-s-diana-glb-three-js-viewer",
+      "source_file": "artemis_diana_threejs_viewer_STANDALONE_EMBEDDED(1).html",
+      "source_path": "/mnt/data/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED(1).html",
+      "sha256": "000185343a6b77b83dfb044282b0b96343b783f0f0871e4542cb3ed450deb1a8",
+      "size_bytes": 3387595,
+      "file_type": "html",
+      "title": "A.R.T.E.M.I.S. \u2014 Diana GLB Three.js Viewer",
+      "family": "cultural-intelligence",
+      "recommended_repository": "artemis-diana",
+      "recommended_exposure": "public-preview-candidate",
+      "data_risk": "low",
+      "data_risk_score": 1,
+      "sensitive_term_hits": [
+        {
+          "term": "gis",
+          "count": 1,
+          "weight": 1
+        }
+      ],
+      "external_dependencies": [],
+      "external_domains": [
+        "cdn.jsdelivr.net"
+      ],
+      "embedded_data_uri_types": [
+        "model/gltf-binary"
+      ],
+      "embedded_asset_count_estimate": 1,
+      "secret_pattern_findings": [],
+      "license_attribution_terms": [
+        "gpl"
+      ],
+      "capabilities": {
+        "threejs": true,
+        "maps": false,
+        "charts": false,
+        "local_storage": false,
+        "file_import_export": false,
+        "fetch_calls": 0,
+        "console_calls": 1
+      },
+      "readiness": {
+        "syntax_validation": "not-browser-executed",
+        "browser_test_required": true,
+        "license_review_required": true,
+        "sanitization_required": false,
+        "deployment_recommendation": "public-preview-after-QA"
+      }
+    },
+    {
+      "app_id": "a-r-t-e-m-i-s-diana-animated-intelligence-demonstrator-v2",
+      "source_file": "artemis_diana_moonshot_demonstrator_v3(5).html",
+      "source_path": "/mnt/data/artemis_diana_moonshot_demonstrator_v3(5).html",
+      "sha256": "edf48ff1c51a2ffeffc9664879f471245c66bd43d25e069e60dcdb983156bc0e",
+      "size_bytes": 5738277,
+      "file_type": "html",
+      "title": "A.R.T.E.M.I.S. Diana \u2014 Animated Intelligence Demonstrator v2",
+      "family": "cultural-intelligence",
+      "recommended_repository": "artemis-diana",
+      "recommended_exposure": "public-preview-candidate",
+      "data_risk": "low",
+      "data_risk_score": 1,
+      "sensitive_term_hits": [
+        {
+          "term": "gis",
+          "count": 1,
+          "weight": 1
+        }
+      ],
+      "external_dependencies": [],
+      "external_domains": [
+        "cdn.jsdelivr.net"
+      ],
+      "embedded_data_uri_types": [
+        "image/png"
+      ],
+      "embedded_asset_count_estimate": 1,
+      "secret_pattern_findings": [],
+      "license_attribution_terms": [
+        "gpl"
+      ],
+      "capabilities": {
+        "threejs": true,
+        "maps": false,
+        "charts": false,
+        "local_storage": false,
+        "file_import_export": false,
+        "fetch_calls": 0,
+        "console_calls": 0
+      },
+      "readiness": {
+        "syntax_validation": "not-browser-executed",
+        "browser_test_required": true,
+        "license_review_required": true,
+        "sanitization_required": false,
+        "deployment_recommendation": "public-preview-after-QA"
+      }
+    },
+    {
+      "app_id": "artemis-dep-sewer-utility-intelligence-bridge-rc8-4-dual-story-field-claims-hardened-public-demo",
+      "source_file": "Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened(4).html",
+      "source_path": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened(4).html",
+      "sha256": "0c7ea6ba281cae03d9d285b6c5ddc835c402b25adca07a51f15b4e7cefc1f988",
+      "size_bytes": 491981,
+      "file_type": "html",
+      "title": "Artemis DEP Sewer Utility Intelligence Bridge \u2014 RC8.4 Dual Story + Field Claims Hardened Public Demo GIS + Actuals",
+      "family": "infrastructure-intelligence",
+      "recommended_repository": "artemis-utility-intelligence",
+      "recommended_exposure": "internal",
+      "data_risk": "high",
+      "data_risk_score": 162,
+      "sensitive_term_hits": [
+        {
+          "term": "actuals",
+          "count": 89,
+          "weight": 3
+        },
+        {
+          "term": "cost",
+          "count": 93,
+          "weight": 2
+        },
+        {
+          "term": "claims",
+          "count": 53,
+          "weight": 3
+        },
+        {
+          "term": "payment",
+          "count": 40,
+          "weight": 2
+        },
+        {
+          "term": "utility",
+          "count": 39,
+          "weight": 1
+        },
+        {
+          "term": "sewer",
+          "count": 38,
+          "weight": 1
+        },
+        {
+          "term": "schedule",
+          "count": 37,
+          "weight": 1
+        },
+        {
+          "term": "gis",
+          "count": 35,
+          "weight": 1
+        },
+        {
+          "term": "contract",
+          "count": 14,
+          "weight": 1
+        },
+        {
+          "term": "owner",
+          "count": 9,
+          "weight": 1
+        },
+        {
+          "term": "productivity",
+          "count": 4,
+          "weight": 2
+        }
+      ],
+      "external_dependencies": [
+        "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+        "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+        "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      ],
+      "external_domains": [
+        "...",
+        "api.mapbox.com",
+        "cdnjs.cloudflare.com",
+        "unpkg.com",
+        "www.openstreetmap.org",
+        "{s}.tile.openstreetmap.org",
+        "{s}.tile.opentopomap.org"
+      ],
+      "embedded_data_uri_types": [],
+      "embedded_asset_count_estimate": 0,
+      "secret_pattern_findings": [],
+      "license_attribution_terms": [
+        "attribution"
+      ],
+      "capabilities": {
+        "threejs": true,
+        "maps": true,
+        "charts": true,
+        "local_storage": true,
+        "file_import_export": true,
+        "fetch_calls": 0,
+        "console_calls": 6
+      },
+      "readiness": {
+        "syntax_validation": "not-browser-executed",
+        "browser_test_required": true,
+        "license_review_required": true,
+        "sanitization_required": true,
+        "deployment_recommendation": "preview-only"
+      }
+    },
+    {
+      "app_id": "artemis-dep-sewer-utility-intelligence-bridge-rc7-3-east-village-gis",
+      "source_file": "Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean(1).html",
+      "source_path": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean(1).html",
+      "sha256": "27bd901e2fc33b7bea7f187fb2b8f435f0c93079137500f5699d70468f3ae7fe",
+      "size_bytes": 396683,
+      "file_type": "html",
+      "title": "Artemis DEP Sewer Utility Intelligence Bridge \u2014 RC7.3 East Village GIS",
+      "family": "infrastructure-intelligence",
+      "recommended_repository": "artemis-utility-intelligence",
+      "recommended_exposure": "internal",
+      "data_risk": "high",
+      "data_risk_score": 153,
+      "sensitive_term_hits": [
+        {
+          "term": "cost",
+          "count": 114,
+          "weight": 2
+        },
+        {
+          "term": "actuals",
+          "count": 24,
+          "weight": 3
+        },
+        {
+          "term": "payment",
+          "count": 21,
+          "weight": 2
+        },
+        {
+          "term": "sewer",
+          "count": 42,
+          "weight": 1
+        },
+        {
+          "term": "utility",
+          "count": 37,
+          "weight": 1
+        },
+        {
+          "term": "schedule",
+          "count": 27,
+          "weight": 1
+        },
+        {
+          "term": "gis",
+          "count": 22,
+          "weight": 1
+        },
+        {
+          "term": "client",
+          "count": 21,
+          "weight": 1
+        },
+        {
+          "term": "claims",
+          "count": 6,
+          "weight": 3
+        },
+        {
+          "term": "contract",
+          "count": 15,
+          "weight": 1
+        },
+        {
+          "term": "owner",
+          "count": 6,
+          "weight": 1
+        },
+        {
+          "term": "productivity",
+          "count": 2,
+          "weight": 2
+        }
+      ],
+      "external_dependencies": [
+        "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+        "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+        "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      ],
+      "external_domains": [
+        "...",
+        "api.mapbox.com",
+        "cdnjs.cloudflare.com",
+        "unpkg.com",
+        "www.openstreetmap.org",
+        "{s}.tile.openstreetmap.org",
+        "{s}.tile.opentopomap.org"
+      ],
+      "embedded_data_uri_types": [],
+      "embedded_asset_count_estimate": 0,
+      "secret_pattern_findings": [],
+      "license_attribution_terms": [
+        "attribution"
+      ],
+      "capabilities": {
+        "threejs": true,
+        "maps": true,
+        "charts": true,
+        "local_storage": true,
+        "file_import_export": true,
+        "fetch_calls": 0,
+        "console_calls": 2
+      },
+      "readiness": {
+        "syntax_validation": "not-browser-executed",
+        "browser_test_required": true,
+        "license_review_required": true,
+        "sanitization_required": true,
+        "deployment_recommendation": "preview-only"
+      }
+    },
+    {
+      "source_file": "Artemis_Dynamic_Intelligence_Bridges_Phase_2_RC4_Package(1).zip",
+      "source_path": "/mnt/data/Artemis_Dynamic_Intelligence_Bridges_Phase_2_RC4_Package(1).zip",
+      "sha256": "0f9dc314beeb224ad270a5ccf4b7c03dbc243edb14ee75fedafac67b860f611b",
+      "size_bytes": 87233,
+      "file_type": "zip",
+      "members": [
+        {
+          "name": "Artemis_Construction_Intelligence_Bridge_RC4_Executive_Control_Room.html",
+          "size_bytes": 243897,
+          "compressed_bytes": 76248,
+          "extension": ".html"
+        },
+        {
+          "name": "Artemis_RC4_Phase_2_Executive_Control_Room_Brief.md",
+          "size_bytes": 2809,
+          "compressed_bytes": 1330,
+          "extension": ".md"
+        },
+        {
+          "name": "Artemis_RC4_LinkedIn_Post_Draft.md",
+          "size_bytes": 1934,
+          "compressed_bytes": 906,
+          "extension": ".md"
+        },
+        {
+          "name": "Artemis_RC4_Screenshot_and_Video_Guide.md",
+          "size_bytes": 1821,
+          "compressed_bytes": 973,
+          "extension": ".md"
+        },
+        {
+          "name": "Artemis_RC4_Test_Report.md",
+          "size_bytes": 1308,
+          "compressed_bytes": 682,
+          "extension": ".md"
+        },
+        {
+          "name": "Artemis_RC4_Executive_Control_Room_Phase_2_Brief.pdf",
+          "size_bytes": 8757,
+          "compressed_bytes": 5752,
+          "extension": ".pdf"
+        }
+      ],
+      "summary": {
+        "member_count": 6,
+        "total_uncompressed_bytes": 260526,
+        "extension_counts": {
+          ".html": 1,
+          ".md": 4,
+          ".pdf": 1
+        },
+        "html_application_count": 1,
+        "contains_pdf": true,
+        "contains_markdown": true
+      },
+      "embedded_html_reports": [
+        {
+          "app_id": "artemis-construction-intelligence-bridge-field-to-erp-geometry-to-cashflow-demo",
+          "source_file": "Artemis_Dynamic_Intelligence_Bridges_Phase_2_RC4_Package(1).zip::Artemis_Construction_Intelligence_Bridge_RC4_Executive_Control_Room.html",
+          "source_path": "/mnt/data/artemis-app-foundry-phase-1/samples/_tmp_Artemis_Construction_Intelligence_Bridge_RC4_Executive_Control_Room.html",
+          "sha256": "0a0bec5ce93ac00f957f3488b697855b5dd89673e87ff424ef9f0f8b8cfa8e59",
+          "size_bytes": 243897,
+          "file_type": "html",
+          "title": "Artemis Construction Intelligence Bridge \u2014 Field-to-ERP / Geometry-to-Cashflow Demo",
+          "family": "construction-intelligence",
+          "recommended_repository": "artemis-construction-intelligence",
+          "recommended_exposure": "internal",
+          "data_risk": "high",
+          "data_risk_score": 130,
+          "sensitive_term_hits": [
+            {
+              "term": "cost",
+              "count": 156,
+              "weight": 2
+            },
+            {
+              "term": "actuals",
+              "count": 37,
+              "weight": 3
+            },
+            {
+              "term": "client",
+              "count": 31,
+              "weight": 1
+            },
+            {
+              "term": "payment",
+              "count": 12,
+              "weight": 2
+            },
+            {
+              "term": "schedule",
+              "count": 22,
+              "weight": 1
+            },
+            {
+              "term": "gis",
+              "count": 14,
+              "weight": 1
+            },
+            {
+              "term": "sewer",
+              "count": 13,
+              "weight": 1
+            },
+            {
+              "term": "contract",
+              "count": 10,
+              "weight": 1
+            },
+            {
+              "term": "owner",
+              "count": 6,
+              "weight": 1
+            },
+            {
+              "term": "productivity",
+              "count": 3,
+              "weight": 2
+            },
+            {
+              "term": "utility",
+              "count": 3,
+              "weight": 1
+            }
+          ],
+          "external_dependencies": [
+            "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js",
+            "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+            "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          ],
+          "external_domains": [
+            "...",
+            "api.mapbox.com",
+            "cdnjs.cloudflare.com",
+            "unpkg.com"
+          ],
+          "embedded_data_uri_types": [],
+          "embedded_asset_count_estimate": 0,
+          "secret_pattern_findings": [],
+          "license_attribution_terms": [
+            "attribution"
+          ],
+          "capabilities": {
+            "threejs": true,
+            "maps": true,
+            "charts": true,
+            "local_storage": true,
+            "file_import_export": true,
+            "fetch_calls": 0,
+            "console_calls": 0
+          },
+          "readiness": {
+            "syntax_validation": "not-browser-executed",
+            "browser_test_required": true,
+            "license_review_required": true,
+            "sanitization_required": true,
+            "deployment_recommendation": "preview-only"
+          }
+        }
+      ]
+    },
+    {
+      "source_file": "Artemis_Dynamic_Intelligence_Bridges_Phase_3_RC5_DEP_Sewer_Package(1).zip",
+      "source_path": "/mnt/data/Artemis_Dynamic_Intelligence_Bridges_Phase_3_RC5_DEP_Sewer_Package(1).zip",
+      "sha256": "fa7cab2590aac85abe62f95f1df724d6220096395ca2a51b6851d34c31efa583",
+      "size_bytes": 87525,
+      "file_type": "zip",
+      "members": [
+        {
+          "name": "Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC5.html",
+          "size_bytes": 254054,
+          "compressed_bytes": 78474,
+          "extension": ".html"
+        },
+        {
+          "name": "Artemis_RC5_Phase_3_DEP_Sewer_Standards_Brief.pdf",
+          "size_bytes": 4052,
+          "compressed_bytes": 2646,
+          "extension": ".pdf"
+        },
+        {
+          "name": "Artemis_RC5_Phase_3_DEP_Sewer_Standards_Brief.md",
+          "size_bytes": 2175,
+          "compressed_bytes": 1029,
+          "extension": ".md"
+        },
+        {
+          "name": "Artemis_RC5_LinkedIn_DEP_Sewer_Post.md",
+          "size_bytes": 2041,
+          "compressed_bytes": 997,
+          "extension": ".md"
+        },
+        {
+          "name": "Artemis_RC5_Screenshot_and_Video_Guide.md",
+          "size_bytes": 1762,
+          "compressed_bytes": 934,
+          "extension": ".md"
+        },
+        {
+          "name": "Artemis_RC5_Analytical_Feature_Highlights.md",
+          "size_bytes": 1447,
+          "compressed_bytes": 776,
+          "extension": ".md"
+        },
+        {
+          "name": "Artemis_RC5_Test_Report.md",
+          "size_bytes": 1051,
+          "compressed_bytes": 617,
+          "extension": ".md"
+        },
+        {
+          "name": "Artemis_RC6_Screenshot_Deck_and_Video_Mode_Prompt.md",
+          "size_bytes": 1312,
+          "compressed_bytes": 718,
+          "extension": ".md"
+        }
+      ],
+      "summary": {
+        "member_count": 8,
+        "total_uncompressed_bytes": 267894,
+        "extension_counts": {
+          ".html": 1,
+          ".pdf": 1,
+          ".md": 6
+        },
+        "html_application_count": 1,
+        "contains_pdf": true,
+        "contains_markdown": true
+      },
+      "embedded_html_reports": [
+        {
+          "app_id": "artemis-dep-sewer-utility-intelligence-bridge-rc5-standards-lens",
+          "source_file": "Artemis_Dynamic_Intelligence_Bridges_Phase_3_RC5_DEP_Sewer_Package(1).zip::Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC5.html",
+          "source_path": "/mnt/data/artemis-app-foundry-phase-1/samples/_tmp_Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC5.html",
+          "sha256": "538b47ff6869da24e95badfb06b6e0008d2e48730a8bcc10453e1c7d60e489ad",
+          "size_bytes": 254054,
+          "file_type": "html",
+          "title": "Artemis DEP Sewer Utility Intelligence Bridge \u2014 RC5 Standards Lens",
+          "family": "infrastructure-intelligence",
+          "recommended_repository": "artemis-utility-intelligence",
+          "recommended_exposure": "internal",
+          "data_risk": "high",
+          "data_risk_score": 139,
+          "sensitive_term_hits": [
+            {
+              "term": "cost",
+              "count": 162,
+              "weight": 2
+            },
+            {
+              "term": "actuals",
+              "count": 34,
+              "weight": 3
+            },
+            {
+              "term": "sewer",
+              "count": 35,
+              "weight": 1
+            },
+            {
+              "term": "utility",
+              "count": 29,
+              "weight": 1
+            },
+            {
+              "term": "payment",
+              "count": 13,
+              "weight": 2
+            },
+            {
+              "term": "schedule",
+              "count": 25,
+              "weight": 1
+            },
+            {
+              "term": "client",
+              "count": 21,
+              "weight": 1
+            },
+            {
+              "term": "gis",
+              "count": 14,
+              "weight": 1
+            },
+            {
+              "term": "contract",
+              "count": 13,
+              "weight": 1
+            },
+            {
+              "term": "productivity",
+              "count": 4,
+              "weight": 2
+            },
+            {
+              "term": "owner",
+              "count": 6,
+              "weight": 1
+            }
+          ],
+          "external_dependencies": [
+            "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js",
+            "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+            "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          ],
+          "external_domains": [
+            "...",
+            "api.mapbox.com",
+            "cdnjs.cloudflare.com",
+            "unpkg.com"
+          ],
+          "embedded_data_uri_types": [],
+          "embedded_asset_count_estimate": 0,
+          "secret_pattern_findings": [],
+          "license_attribution_terms": [
+            "attribution"
+          ],
+          "capabilities": {
+            "threejs": true,
+            "maps": true,
+            "charts": true,
+            "local_storage": true,
+            "file_import_export": true,
+            "fetch_calls": 0,
+            "console_calls": 0
+          },
+          "readiness": {
+            "syntax_validation": "not-browser-executed",
+            "browser_test_required": true,
+            "license_review_required": true,
+            "sanitization_required": true,
+            "deployment_recommendation": "preview-only"
+          }
+        }
+      ]
+    }
+  ]
+}

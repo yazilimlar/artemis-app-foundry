@@ -1,25 +1,22 @@
-# ARTEMIS App Foundry — Phase 0
+# ARTEMIS App Foundry — Phase 1
 
-A governance and publishing foundation for receiving, classifying, testing, branding,
-registering, and deploying ARTEMIS HTML applications and ZIP packages.
+Phase 1 adds an executable intake scanner and a first portfolio-wide intake report.
 
-## Core rule
-Each major product family gets its own repository and Vercel project.
-`artemis-omni` remains the catalog, product-page, lead-capture, and navigation layer.
+## Included
 
-## Proposed repositories
-- artemis-omni
-- artemis-geometric-workbench
-- artemis-utility-intelligence
-- artemis-diana
-- artemis-dynamic-bridges
-- artemis-app-foundry
+- `scanner/intake_scan.py`
+- `scanner/intake-report.schema.json`
+- `reports/portfolio-intake-report.json`
+- `reports/portfolio-intake-report.md`
+- `reports/portfolio-summary.csv`
+- `docs/INSTALL_AND_RUN.md`
+- `docs/PHASE_2_PLAN.md`
 
-## Immediate actions
-1. Add DNS CNAME for `workbench.artemis.agoraxai.com`.
-2. Confirm the Workbench lead form records `product` and `intent`.
-3. Create `artemis-app-foundry`.
-4. Inventory uploaded ZIP packages.
-5. Review DEP Sewer data before public deployment.
-6. Preserve Diana licensing and attribution.
-7. Register every future upload before deployment.
+## Scope
+
+The scanner inventories HTML and ZIP files, fingerprints sources, extracts titles,
+detects CDN dependencies and embedded data assets, flags licensing terms, identifies
+basic data-sensitivity indicators, recommends a repository/product family, and assigns
+a preliminary exposure recommendation.
+
+It does not replace browser execution, legal review, security review, or data-owner approval.
