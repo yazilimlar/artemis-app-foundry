@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARTEMIS Release Manifest",
+  "type": "object",
+  "required": [
+    "app_id",
+    "name",
+    "version",
+    "family",
+    "exposure",
+    "qa_decision",
+    "repository",
+    "source_sha256"
+  ],
+  "properties": {
+    "qa_decision": {
+      "enum": [
+        "PASS",
+        "WARN",
+        "BLOCKED"
+      ]
+    },
+    "production_eligible": {
+      "type": "boolean"
+    }
+  }
+}

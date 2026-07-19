@@ -1,0 +1,29 @@
+name: ARTEMIS Foundry QA
+on:
+  workflow_dispatch:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: python -m py_compile scanner/intake_scan.py sanitization/scan.py scripts/*.py
+      - run: |
+          if compgen -G "intake/*.html" > /dev/null; then
+            python sanitization/scan.py intake/*.html --rules sanitization/rules.json --out reports/sanitization-report.json
+          fi
+      - run: npm run qa:browser
+      - run: python scripts/merge_release_decisions.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: artemis-foundry-qa
+          path: reports/

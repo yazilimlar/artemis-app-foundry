@@ -1,0 +1,16 @@
+name: Production Promotion Request
+on:
+  workflow_dispatch:
+    inputs:
+      app_id:
+        required: true
+      version:
+        required: true
+      approval_reference:
+        required: true
+jobs:
+  approval:
+    runs-on: ubuntu-latest
+    environment: production-approval
+    steps:
+      - run: echo "Manual approval recorded for ${{ inputs.app_id }} ${{ inputs.version }}"

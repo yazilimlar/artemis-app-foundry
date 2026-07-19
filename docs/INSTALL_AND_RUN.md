@@ -1,42 +1,26 @@
-# Install and Run Phase 2
-
-## Merge into the Foundry repository
+# Install Phase 3
 
 ```bash
 cd "$HOME/Desktop/motion graphic/artemis-app-foundry"
-rm -rf /tmp/artemis-foundry-phase2
-mkdir -p /tmp/artemis-foundry-phase2
-unzip -qo "$HOME/Desktop/ARTEMIS_App_Foundry_Phase_2.zip" -d /tmp/artemis-foundry-phase2
-cp -R /tmp/artemis-foundry-phase2/artemis-app-foundry-phase-2/. .
-npm install
-npx playwright install chromium
+rm -rf /tmp/artemis-foundry-phase3
+mkdir -p /tmp/artemis-foundry-phase3
+unzip -qo "$HOME/Desktop/ARTEMIS_App_Foundry_Phase_3.zip" -d /tmp/artemis-foundry-phase3
+cp -R /tmp/artemis-foundry-phase3/artemis-app-foundry-phase-3/. .
+mkdir -p .github/workflows
+cp github-actions/*.yml .github/workflows/
 git add .
-git commit -m "feat: add Phase 2 browser QA and sanitization gates"
+git commit -m "feat: add Phase 3 registry and release automation"
 git push origin main
 ```
 
-## Run sanitization
+Update registry:
 
 ```bash
-python3 sanitization/scan.py   "/path/to/app.html"   --rules sanitization/rules.json   --out reports/sanitization-report.json
+python3 scripts/update_registry.py
 ```
 
-## Run browser QA
-
-Update `config/targets.json` so each source path points to a local file, then:
+Generate a release package:
 
 ```bash
-npm run qa:browser
+python3 scripts/generate_release_package.py intake/example.html   --id example-app --name "ARTEMIS Example App" --version 1.0.0   --family platform-bridges --exposure controlled-demo   --decision WARN --repository artemis-example
 ```
-
-## Merge decisions
-
-```bash
-python3 scripts/merge_release_decisions.py
-```
-
-Outputs:
-- `reports/browser-qa/browser-qa-report.json`
-- responsive screenshots
-- `reports/release-readiness.json`
-- `reports/release-readiness.csv`

@@ -1,23 +1,13 @@
-# ARTEMIS App Foundry — Phase 2
+# ARTEMIS App Foundry — Phase 3
 
-Phase 2 adds executable browser QA, responsive screenshots, console/network capture,
-interaction smoke testing, sanitization rules, and release decisions.
+Phase 3 converts QA findings into controlled release artifacts.
 
-## Components
+Capabilities:
+- registry updates from readiness reports
+- normalized release manifests
+- preview package generation
+- standard ARTEMIS navigation/footer injection
+- GitHub Actions QA
+- manual production approval gate
 
-- `qa/browser_qa.mjs`
-- `sanitization/scan.py`
-- `sanitization/rules.json`
-- `scripts/merge_release_decisions.py`
-- `config/targets.json`
-- `reports/sanitization-report.json`
-- `reports/release-readiness-prebrowser.csv`
-
-## Decision model
-
-- `PASS`: no release-blocking finding
-- `WARN`: review required before public release
-- `BLOCKED`: public release prohibited until resolved
-
-The static sanitization report is included. Browser results are generated locally because
-the applications use WebGL, local files, downloads, and external CDNs.
+Foundry prepares and certifies releases. Product repositories own production deployment.

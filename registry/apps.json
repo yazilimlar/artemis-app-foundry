@@ -36,9 +36,17 @@
       "source_type": "embedded-glb-html",
       "repository": "artemis-diana",
       "canonical_domain": "diana.artemis.agoraxai.com",
-      "status": "internal-preview",
+      "status": "review-required",
       "exposure": "controlled-demo",
-      "notes": "Preserve model license and attribution."
+      "notes": "Preserve model license and attribution.",
+      "qa": {
+        "browser_decision": "PASS",
+        "sanitization_decision": "WARN",
+        "policy_gate": "WARN",
+        "final_decision": "WARN",
+        "finding_count": 1,
+        "verified_at": "2026-07-19T02:20:07+00:00"
+      }
     },
     {
       "id": "diana-moonshot-demonstrator",
@@ -48,9 +56,17 @@
       "source_type": "embedded-glb-html",
       "repository": "artemis-diana",
       "canonical_domain": "diana.artemis.agoraxai.com",
-      "status": "internal-preview",
+      "status": "review-required",
       "exposure": "controlled-demo",
-      "notes": "Cinematic 2D-to-3D demonstrator."
+      "notes": "Cinematic 2D-to-3D demonstrator.",
+      "qa": {
+        "browser_decision": "PASS",
+        "sanitization_decision": "WARN",
+        "policy_gate": "WARN",
+        "final_decision": "WARN",
+        "finding_count": 1,
+        "verified_at": "2026-07-19T02:20:07+00:00"
+      }
     },
     {
       "id": "dep-sewer-utility-bridge-rc8-4",
@@ -60,9 +76,17 @@
       "source_type": "standalone-html",
       "repository": "artemis-utility-intelligence",
       "canonical_domain": "utilities.artemis.agoraxai.com",
-      "status": "controlled-demo",
+      "status": "public-release-blocked",
       "exposure": "controlled-demo",
-      "notes": "Review GIS, actuals, field claims, and project data before public release."
+      "notes": "Review GIS, actuals, field claims, and project data before public release.",
+      "qa": {
+        "browser_decision": "PASS",
+        "sanitization_decision": "WARN",
+        "policy_gate": "BLOCKED",
+        "final_decision": "BLOCKED",
+        "finding_count": 5,
+        "verified_at": "2026-07-19T02:20:07+00:00"
+      }
     },
     {
       "id": "dep-sewer-utility-bridge-public-demo",
@@ -72,9 +96,17 @@
       "source_type": "standalone-html",
       "repository": "artemis-utility-intelligence",
       "canonical_domain": "utilities.artemis.agoraxai.com",
-      "status": "sanitization-review",
+      "status": "public-release-blocked",
       "exposure": "public-demo",
-      "notes": "Underlying data still requires verification."
+      "notes": "Underlying data still requires verification.",
+      "qa": {
+        "browser_decision": "PASS",
+        "sanitization_decision": "WARN",
+        "policy_gate": "BLOCKED",
+        "final_decision": "BLOCKED",
+        "finding_count": 5,
+        "verified_at": "2026-07-19T02:20:07+00:00"
+      }
     },
     {
       "id": "dynamic-intelligence-bridges-phase-2",
@@ -100,5 +132,6 @@
       "exposure": "internal",
       "notes": "Inventory ZIP before assignment."
     }
-  ]
+  ],
+  "updated_at": "2026-07-19T02:20:07+00:00"
 }
