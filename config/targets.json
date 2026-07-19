@@ -3,7 +3,7 @@
   "targets": [
     {
       "id": "geometric-workbench-legacy-3-6-1",
-      "source": "/mnt/data/ARTEMIS_v3_6_1_download(3).html",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/ARTEMIS_v3_6_1_download.html",
       "expected_family": "geometry-fabrication",
       "exposure": "internal",
       "interaction_selectors": [
@@ -15,7 +15,7 @@
     },
     {
       "id": "diana-threejs-viewer",
-      "source": "/mnt/data/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED(1).html",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED.html",
       "expected_family": "cultural-intelligence",
       "exposure": "controlled-demo",
       "interaction_selectors": [
@@ -30,7 +30,7 @@
     },
     {
       "id": "diana-moonshot-demonstrator",
-      "source": "/mnt/data/artemis_diana_moonshot_demonstrator_v3(5).html",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/artemis_diana_moonshot_demonstrator_v3.html",
       "expected_family": "cultural-intelligence",
       "exposure": "controlled-demo",
       "interaction_selectors": [
@@ -43,7 +43,7 @@
     },
     {
       "id": "dep-sewer-utility-bridge-rc8-4",
-      "source": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened(4).html",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened.html",
       "expected_family": "infrastructure-intelligence",
       "exposure": "controlled-demo",
       "interaction_selectors": [
@@ -55,7 +55,7 @@
     },
     {
       "id": "dep-sewer-utility-bridge-public-demo",
-      "source": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean(1).html",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean.html",
       "expected_family": "infrastructure-intelligence",
       "exposure": "public-demo",
       "interaction_selectors": [

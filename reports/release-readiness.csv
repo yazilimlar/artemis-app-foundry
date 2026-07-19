@@ -1,0 +1,6 @@
+id,source,browser_decision,sanitization_decision,policy_gate,final_decision,finding_count
+geometric-workbench-legacy-3-6-1,/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/ARTEMIS_v3_6_1_download.html,PASS,WARN,WARN,WARN,1
+diana-threejs-viewer,/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED.html,PASS,WARN,WARN,WARN,1
+diana-moonshot-demonstrator,/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/artemis_diana_moonshot_demonstrator_v3.html,PASS,WARN,WARN,WARN,1
+dep-sewer-utility-bridge-rc8-4,/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened.html,PASS,WARN,BLOCKED,BLOCKED,5
+dep-sewer-utility-bridge-public-demo,/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean.html,PASS,WARN,BLOCKED,BLOCKED,5

@@ -1,0 +1,50 @@
+{
+  "release_matrix_version": "2.0.0",
+  "rows": [
+    {
+      "id": "geometric-workbench-legacy-3-6-1",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/ARTEMIS_v3_6_1_download.html",
+      "browser_decision": "PASS",
+      "sanitization_decision": "WARN",
+      "policy_gate": "WARN",
+      "final_decision": "WARN",
+      "finding_count": 1
+    },
+    {
+      "id": "diana-threejs-viewer",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED.html",
+      "browser_decision": "PASS",
+      "sanitization_decision": "WARN",
+      "policy_gate": "WARN",
+      "final_decision": "WARN",
+      "finding_count": 1
+    },
+    {
+      "id": "diana-moonshot-demonstrator",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/artemis_diana_moonshot_demonstrator_v3.html",
+      "browser_decision": "PASS",
+      "sanitization_decision": "WARN",
+      "policy_gate": "WARN",
+      "final_decision": "WARN",
+      "finding_count": 1
+    },
+    {
+      "id": "dep-sewer-utility-bridge-rc8-4",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened.html",
+      "browser_decision": "PASS",
+      "sanitization_decision": "WARN",
+      "policy_gate": "BLOCKED",
+      "final_decision": "BLOCKED",
+      "finding_count": 5
+    },
+    {
+      "id": "dep-sewer-utility-bridge-public-demo",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean.html",
+      "browser_decision": "PASS",
+      "sanitization_decision": "WARN",
+      "policy_gate": "BLOCKED",
+      "final_decision": "BLOCKED",
+      "finding_count": 5
+    }
+  ]
+}

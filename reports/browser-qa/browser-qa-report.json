@@ -1,0 +1,762 @@
+{
+  "harness_version": "2.0.0",
+  "generated_at": "2026-07-19T00:18:03.084Z",
+  "results": [
+    {
+      "id": "geometric-workbench-legacy-3-6-1",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/ARTEMIS_v3_6_1_download.html",
+      "started_at": "2026-07-19T00:14:39.493Z",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "ARTEMIS Intelligent Systems Workbench v3.6.1 — Dowel/Socket Connector System · Neo-Classical Tech Brand DNA · Goldberg Geodesic Hex/Pent Dome · Branded Print-Safe Shop Cards",
+            "bodyTextLength": 2221,
+            "scrollWidth": 1440,
+            "clientWidth": 1440,
+            "scrollHeight": 1000,
+            "clientHeight": 1000,
+            "horizontalOverflow": false,
+            "canvasCount": 1,
+            "svgCount": 2,
+            "buttonCount": 14,
+            "linkCount": 0,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "button",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').first()\u001b[22m\n\u001b[2m    - locator resolved to <button id=\"playBuild\" class=\"primary\">Animate Build</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n"
+            },
+            {
+              "selector": "select",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select id=\"viewMode\">…</select>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n"
+            },
+            {
+              "selector": "input[type=range]",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=range]').first()\u001b[22m\n\u001b[2m    - locator resolved to <input min=\"1\" max=\"7\" step=\"1\" id=\"freq\" value=\"3\" type=\"range\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n"
+            }
+          ],
+          "screenshot": "reports/browser-qa/geometric-workbench-legacy-3-6-1-desktop.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "tablet",
+            "width": 1024,
+            "height": 768
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "ARTEMIS Intelligent Systems Workbench v3.6.1 — Dowel/Socket Connector System · Neo-Classical Tech Brand DNA · Goldberg Geodesic Hex/Pent Dome · Branded Print-Safe Shop Cards",
+            "bodyTextLength": 2221,
+            "scrollWidth": 1024,
+            "clientWidth": 1024,
+            "scrollHeight": 768,
+            "clientHeight": 768,
+            "horizontalOverflow": false,
+            "canvasCount": 1,
+            "svgCount": 2,
+            "buttonCount": 14,
+            "linkCount": 0,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "button",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').first()\u001b[22m\n\u001b[2m    - locator resolved to <button id=\"playBuild\" class=\"primary\">Animate Build</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n"
+            },
+            {
+              "selector": "select",
+              "status": "PASS"
+            },
+            {
+              "selector": "input[type=range]",
+              "status": "PASS"
+            }
+          ],
+          "screenshot": "reports/browser-qa/geometric-workbench-legacy-3-6-1-tablet.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "ARTEMIS Intelligent Systems Workbench v3.6.1 — Dowel/Socket Connector System · Neo-Classical Tech Brand DNA · Goldberg Geodesic Hex/Pent Dome · Branded Print-Safe Shop Cards",
+            "bodyTextLength": 2221,
+            "scrollWidth": 390,
+            "clientWidth": 390,
+            "scrollHeight": 844,
+            "clientHeight": 844,
+            "horizontalOverflow": false,
+            "canvasCount": 1,
+            "svgCount": 2,
+            "buttonCount": 14,
+            "linkCount": 0,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "button",
+              "status": "PASS"
+            },
+            {
+              "selector": "select",
+              "status": "PASS"
+            },
+            {
+              "selector": "input[type=range]",
+              "status": "PASS"
+            }
+          ],
+          "screenshot": "reports/browser-qa/geometric-workbench-legacy-3-6-1-mobile.png",
+          "decision": "PASS"
+        }
+      ],
+      "final_decision": "PASS",
+      "errors": []
+    },
+    {
+      "id": "diana-threejs-viewer",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED.html",
+      "started_at": "2026-07-19T00:15:27.826Z",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "A.R.T.E.M.I.S. — Diana GLB Three.js Viewer",
+            "bodyTextLength": 404,
+            "scrollWidth": 1440,
+            "clientWidth": 1440,
+            "scrollHeight": 1000,
+            "clientHeight": 1000,
+            "horizontalOverflow": false,
+            "canvasCount": 1,
+            "svgCount": 0,
+            "buttonCount": 6,
+            "linkCount": 0,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "#btnRotate",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#btnRotate').first()\u001b[22m\n\u001b[2m    - locator resolved to <button id=\"btnRotate\">Pause Rotation</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n"
+            },
+            {
+              "selector": "#btnWire",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#btnWire').first()\u001b[22m\n\u001b[2m    - locator resolved to <button id=\"btnWire\">Show Wire / Edges</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n"
+            },
+            {
+              "selector": "#btnBronze",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#btnBronze').first()\u001b[22m\n\u001b[2m    - locator resolved to <button id=\"btnBronze\">Bronze Study Material</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n"
+            },
+            {
+              "selector": "#btnFloor",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnReframe",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnLight",
+              "status": "PASS"
+            }
+          ],
+          "screenshot": "reports/browser-qa/diana-threejs-viewer-desktop.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "tablet",
+            "width": 1024,
+            "height": 768
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "A.R.T.E.M.I.S. — Diana GLB Three.js Viewer",
+            "bodyTextLength": 445,
+            "scrollWidth": 1024,
+            "clientWidth": 1024,
+            "scrollHeight": 768,
+            "clientHeight": 768,
+            "horizontalOverflow": false,
+            "canvasCount": 1,
+            "svgCount": 0,
+            "buttonCount": 6,
+            "linkCount": 0,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "#btnRotate",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#btnRotate').first()\u001b[22m\n\u001b[2m    - locator resolved to <button id=\"btnRotate\">Pause Rotation</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n"
+            },
+            {
+              "selector": "#btnWire",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnBronze",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnFloor",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnReframe",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnLight",
+              "status": "PASS"
+            }
+          ],
+          "screenshot": "reports/browser-qa/diana-threejs-viewer-tablet.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "A.R.T.E.M.I.S. — Diana GLB Three.js Viewer",
+            "bodyTextLength": 445,
+            "scrollWidth": 390,
+            "clientWidth": 390,
+            "scrollHeight": 844,
+            "clientHeight": 844,
+            "horizontalOverflow": false,
+            "canvasCount": 1,
+            "svgCount": 0,
+            "buttonCount": 6,
+            "linkCount": 0,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "#btnRotate",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnWire",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnBronze",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnFloor",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnReframe",
+              "status": "PASS"
+            },
+            {
+              "selector": "#btnLight",
+              "status": "PASS"
+            }
+          ],
+          "screenshot": "reports/browser-qa/diana-threejs-viewer-mobile.png",
+          "decision": "PASS"
+        }
+      ],
+      "final_decision": "PASS",
+      "errors": []
+    },
+    {
+      "id": "diana-moonshot-demonstrator",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/artemis_diana_moonshot_demonstrator_v3.html",
+      "started_at": "2026-07-19T00:16:20.121Z",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "A.R.T.E.M.I.S. Diana — Animated Intelligence Demonstrator v2",
+            "bodyTextLength": 559,
+            "scrollWidth": 1440,
+            "clientWidth": 1440,
+            "scrollHeight": 1000,
+            "clientHeight": 1000,
+            "horizontalOverflow": false,
+            "canvasCount": 1,
+            "svgCount": 0,
+            "buttonCount": 10,
+            "linkCount": 0,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "#tourBtn",
+              "status": "PASS"
+            },
+            {
+              "selector": "#moonShotBtn",
+              "status": "PASS"
+            },
+            {
+              "selector": "#modeBtn",
+              "status": "PASS"
+            },
+            {
+              "selector": "#resetBtn",
+              "status": "PASS"
+            }
+          ],
+          "screenshot": "reports/browser-qa/diana-moonshot-demonstrator-desktop.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "tablet",
+            "width": 1024,
+            "height": 768
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "A.R.T.E.M.I.S. Diana — Animated Intelligence Demonstrator v2",
+            "bodyTextLength": 559,
+            "scrollWidth": 1024,
+            "clientWidth": 1024,
+            "scrollHeight": 768,
+            "clientHeight": 768,
+            "horizontalOverflow": false,
+            "canvasCount": 1,
+            "svgCount": 0,
+            "buttonCount": 10,
+            "linkCount": 0,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "#tourBtn",
+              "status": "PASS"
+            },
+            {
+              "selector": "#moonShotBtn",
+              "status": "PASS"
+            },
+            {
+              "selector": "#modeBtn",
+              "status": "PASS"
+            },
+            {
+              "selector": "#resetBtn",
+              "status": "PASS"
+            }
+          ],
+          "screenshot": "reports/browser-qa/diana-moonshot-demonstrator-tablet.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "A.R.T.E.M.I.S. Diana — Animated Intelligence Demonstrator v2",
+            "bodyTextLength": 530,
+            "scrollWidth": 390,
+            "clientWidth": 390,
+            "scrollHeight": 844,
+            "clientHeight": 844,
+            "horizontalOverflow": false,
+            "canvasCount": 1,
+            "svgCount": 0,
+            "buttonCount": 10,
+            "linkCount": 0,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "#tourBtn",
+              "status": "PASS"
+            },
+            {
+              "selector": "#moonShotBtn",
+              "status": "PASS"
+            },
+            {
+              "selector": "#modeBtn",
+              "status": "PASS"
+            },
+            {
+              "selector": "#resetBtn",
+              "status": "PASS"
+            }
+          ],
+          "screenshot": "reports/browser-qa/diana-moonshot-demonstrator-mobile.png",
+          "decision": "PASS"
+        }
+      ],
+      "final_decision": "PASS",
+      "errors": []
+    },
+    {
+      "id": "dep-sewer-utility-bridge-rc8-4",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened.html",
+      "started_at": "2026-07-19T00:17:00.678Z",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "Artemis DEP Sewer Utility Intelligence Bridge — RC8.4 Dual Story + Field Claims Hardened Public Demo GIS + Actuals",
+            "bodyTextLength": 21778,
+            "scrollWidth": 1440,
+            "clientWidth": 1440,
+            "scrollHeight": 1000,
+            "clientHeight": 1000,
+            "horizontalOverflow": false,
+            "canvasCount": 18,
+            "svgCount": 3,
+            "buttonCount": 263,
+            "linkCount": 63,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "button",
+              "status": "PASS"
+            },
+            {
+              "selector": "select",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select class=\"hbtn\" id=\"spaceStyle\" title=\"Visual style / model-space background\">…</select>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a href=\"#narStoryFieldClaims\">Story 1</a> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a href=\"#narStoryFieldClaims\">Story 1</a> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a href=\"#narStoryFieldClaims\">Story 1</a> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            },
+            {
+              "selector": "input",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input').first()\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"text\" id=\"projName\" value=\"Artemis DEP Sewer Utility Standards Demo — East 10th Street, East Village\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section id=\"narStorySelector\" class=\"narStorySelector\" aria-label=\"Dual story selector\">…</section> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section id=\"narStorySelector\" class=\"narStorySelector\" aria-label=\"Dual story selector\">…</section> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section id=\"narStorySelector\" class=\"narStorySelector\" aria-label=\"Dual story selector\">…</section> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            }
+          ],
+          "screenshot": "reports/browser-qa/dep-sewer-utility-bridge-rc8-4-desktop.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "tablet",
+            "width": 1024,
+            "height": 768
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "Artemis DEP Sewer Utility Intelligence Bridge — RC8.4 Dual Story + Field Claims Hardened Public Demo GIS + Actuals",
+            "bodyTextLength": 14595,
+            "scrollWidth": 1024,
+            "clientWidth": 1024,
+            "scrollHeight": 768,
+            "clientHeight": 768,
+            "horizontalOverflow": false,
+            "canvasCount": 18,
+            "svgCount": 3,
+            "buttonCount": 263,
+            "linkCount": 63,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "button",
+              "status": "PASS"
+            },
+            {
+              "selector": "select",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select class=\"hbtn\" id=\"spaceStyle\" title=\"Visual style / model-space background\">…</select>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a href=\"#narCapabilities\">Capabilities</a> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a href=\"#narCapabilities\">Capabilities</a> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a href=\"#narCapabilities\">Capabilities</a> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            },
+            {
+              "selector": "input",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input').first()\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"text\" id=\"projName\" value=\"Artemis DEP Sewer Utility Standards Demo — East 10th Street, East Village\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            }
+          ],
+          "screenshot": "reports/browser-qa/dep-sewer-utility-bridge-rc8-4-tablet.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "Artemis DEP Sewer Utility Intelligence Bridge — RC8.4 Dual Story + Field Claims Hardened Public Demo GIS + Actuals",
+            "bodyTextLength": 14059,
+            "scrollWidth": 390,
+            "clientWidth": 390,
+            "scrollHeight": 844,
+            "clientHeight": 844,
+            "horizontalOverflow": false,
+            "canvasCount": 18,
+            "svgCount": 3,
+            "buttonCount": 263,
+            "linkCount": 63,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "button",
+              "status": "PASS"
+            },
+            {
+              "selector": "select",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select class=\"hbtn\" id=\"spaceStyle\" title=\"Visual style / model-space background\">…</select>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <button type=\"button\" id=\"btnNarTheme\" class=\"narTopButton\">☾ Dark</button> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <button type=\"button\" id=\"btnNarTheme\" class=\"narTopButton\">☾ Dark</button> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <button type=\"button\" id=\"btnNarTheme\" class=\"narTopButton\">☾ Dark</button> from <section id=\"narrativePage\" class=\"on narLight\" aria-hidden=\"false\" aria-label=\"Artemis Utility Intelligence Bridge narrative\">…</section> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            },
+            {
+              "selector": "input",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input').first()\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"text\" id=\"projName\" value=\"Artemis DEP Sewer Utility Standards Demo — East 10th Street, East Village\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            }
+          ],
+          "screenshot": "reports/browser-qa/dep-sewer-utility-bridge-rc8-4-mobile.png",
+          "decision": "PASS"
+        }
+      ],
+      "final_decision": "PASS",
+      "errors": []
+    },
+    {
+      "id": "dep-sewer-utility-bridge-public-demo",
+      "source": "/Users/theoppositeofturtle/Desktop/motion graphic/artemis-app-foundry/intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean.html",
+      "started_at": "2026-07-19T00:17:34.488Z",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "Artemis DEP Sewer Utility Intelligence Bridge — RC7.3 East Village GIS",
+            "bodyTextLength": 9656,
+            "scrollWidth": 1440,
+            "clientWidth": 1440,
+            "scrollHeight": 1000,
+            "clientHeight": 1000,
+            "horizontalOverflow": false,
+            "canvasCount": 16,
+            "svgCount": 1,
+            "buttonCount": 213,
+            "linkCount": 56,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "button",
+              "status": "PASS"
+            },
+            {
+              "selector": "select",
+              "status": "PASS"
+            },
+            {
+              "selector": "input",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input').first()\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"text\" id=\"projName\" value=\"Artemis DEP Sewer Utility Standards Demo — East 10th Street, East Village\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            }
+          ],
+          "screenshot": "reports/browser-qa/dep-sewer-utility-bridge-public-demo-desktop.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "tablet",
+            "width": 1024,
+            "height": 768
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "Artemis DEP Sewer Utility Intelligence Bridge — RC7.3 East Village GIS",
+            "bodyTextLength": 2473,
+            "scrollWidth": 1024,
+            "clientWidth": 1024,
+            "scrollHeight": 768,
+            "clientHeight": 768,
+            "horizontalOverflow": false,
+            "canvasCount": 16,
+            "svgCount": 1,
+            "buttonCount": 213,
+            "linkCount": 56,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "button",
+              "status": "PASS"
+            },
+            {
+              "selector": "select",
+              "status": "PASS"
+            },
+            {
+              "selector": "input",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input').first()\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"text\" id=\"projName\" value=\"Artemis DEP Sewer Utility Standards Demo — East 10th Street, East Village\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            }
+          ],
+          "screenshot": "reports/browser-qa/dep-sewer-utility-bridge-public-demo-tablet.png",
+          "decision": "PASS"
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "navigationStatus": "PASS",
+          "navigationError": null,
+          "metrics": {
+            "title": "Artemis DEP Sewer Utility Intelligence Bridge — RC7.3 East Village GIS",
+            "bodyTextLength": 2473,
+            "scrollWidth": 390,
+            "clientWidth": 390,
+            "scrollHeight": 844,
+            "clientHeight": 844,
+            "horizontalOverflow": false,
+            "canvasCount": 16,
+            "svgCount": 1,
+            "buttonCount": 213,
+            "linkCount": 56,
+            "hiddenOverflow": true
+          },
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "downloads": [],
+          "interactions": [
+            {
+              "selector": "button",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').first()\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"hbtn\" id=\"btnLeft\" title=\"Collapse / expand inputs panel\">⮜ Inputs</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            },
+            {
+              "selector": "select",
+              "status": "PASS"
+            },
+            {
+              "selector": "input",
+              "status": "WARN",
+              "note": "TimeoutError: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input').first()\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"text\" id=\"projName\" value=\"Artemis DEP Sewer Utility Standards Demo — East 10th Street, East Village\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+            }
+          ],
+          "screenshot": "reports/browser-qa/dep-sewer-utility-bridge-public-demo-mobile.png",
+          "decision": "PASS"
+        }
+      ],
+      "final_decision": "PASS",
+      "errors": []
+    }
+  ]
+}

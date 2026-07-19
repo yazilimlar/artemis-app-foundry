@@ -1,122 +1,201 @@
 {
   "scanner_version": "2.0.0",
-  "generated_at": "2026-07-18T23:57:37.445180+00:00",
   "reports": [
     {
-      "id": "geometric-workbench-legacy-3-6-1",
-      "source": "/mnt/data/ARTEMIS_v3_6_1_download(3).html",
+      "source": "intake/ARTEMIS_v3_6_1_download.html",
       "sha256": "07a6a57f7e24ddd1882835d071931978f97c7ca2c6c80197f6acf10ab6f95265",
+      "size_bytes": 586189,
       "decision": "WARN",
       "findings": [
         {
           "rule_id": "project.identifiers",
           "severity": "WARN",
           "description": "Project or contract identifier",
-          "count": 4
+          "count": 4,
+          "samples": [
+            "rigin:c,xAxis,yAxis,normal}; } function projectPoint2D(P, frame){const r=P.clone().sub(frame.o",
+            "malize()); const outer=c.outer.map(P=>projectPoint2D(P,frame)); const inner=c.inner.map(P=",
+            "P,frame)); const inner=c.inner.map(P=>projectPoint2D(P,frame)); const holes=(c.connectorSp",
+            "p.edge,letter:sp.edgeLetter||sp.edge,...projectPoint2D(sp.center,frame)})); const all=[...ou"
+          ]
         }
       ]
     },
     {
-      "id": "diana-threejs-viewer",
-      "source": "/mnt/data/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED(1).html",
-      "sha256": "000185343a6b77b83dfb044282b0b96343b783f0f0871e4542cb3ed450deb1a8",
-      "decision": "WARN",
-      "findings": [
-        {
-          "rule_id": "project.identifiers",
-          "severity": "WARN",
-          "description": "Project or contract identifier",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "diana-moonshot-demonstrator",
-      "source": "/mnt/data/artemis_diana_moonshot_demonstrator_v3(5).html",
-      "sha256": "edf48ff1c51a2ffeffc9664879f471245c66bd43d25e069e60dcdb983156bc0e",
-      "decision": "WARN",
-      "findings": [
-        {
-          "rule_id": "project.identifiers",
-          "severity": "WARN",
-          "description": "Project or contract identifier",
-          "count": 7
-        }
-      ]
-    },
-    {
-      "id": "dep-sewer-utility-bridge-rc8-4",
-      "source": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened(4).html",
+      "source": "intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened.html",
       "sha256": "0c7ea6ba281cae03d9d285b6c5ddc835c402b25adca07a51f15b4e7cefc1f988",
+      "size_bytes": 491981,
       "decision": "WARN",
       "findings": [
         {
           "rule_id": "claims.language",
           "severity": "WARN",
           "description": "Claims-related content",
-          "count": 132
+          "count": 132,
+          "samples": [
+            "gence Bridge \u2014 RC8.4 Dual Story + Field Claims Hardened Public Demo GIS + Actuals</tit",
+            "------ RC8 public cockpit + actuals and claims studio ---------- */ :root{ --water:#",
+            "le> /* ---------- RC8.3 Executive Field Claims hardening layer ---------- */ .rc83Scen",
+            "s version keeps the new field-to-cash / claim-payment story and restores the polished",
+            "an><h3>Field completion \u2192 actual cost \u2192 claim/payment lag \u2192 executive action</h3><p>T"
+          ]
         },
         {
           "rule_id": "cost.actuals",
           "severity": "WARN",
           "description": "Cost or actuals content",
-          "count": 301
+          "count": 301,
+          "samples": [
+            "Field Claims Hardened Public Demo GIS + Actuals</title> <script src=\"https://cdnjs.clou",
+            ")}} /* ---------- RC8 public cockpit + actuals and claims studio ---------- */ :root{ ",
+            "onal proof</span><h3>Field completion \u2192 actual cost \u2192 claim/payment lag \u2192 executive ac",
+            "odel geometry turns into field reports, actual cost records, earned value, claims, app",
+            "s=\"narSecondary\" data-narrative-launch=\"actuals-controlled\">Run sample actuals</button>"
+          ]
         },
         {
           "rule_id": "project.identifiers",
           "severity": "WARN",
           "description": "Project or contract identifier",
-          "count": 39
+          "count": 39,
+          "samples": [
+            "c1e;color:#f2cf86} /* ---------- RC7.2 project controls, color grouping, notification center --",
+            " their own language: BIM sees geometry, project controls sees cost codes and earned value, field",
+            " professional readings</h3><p>BIM, QTO, project controls, field, commercial/claims, standards/QA",
+            "\"><div class=\"narEyebrow\">The connected project-controls lifecycle</div><h2>From sub-grade geome",
+            "e=\"--cap:#8f7a59\"><div class=\"num\">02 \u00b7 PROJECT CONTROLS</div><h3>Schedule, EVM &amp; forecast</"
+          ]
         },
         {
           "rule_id": "infrastructure.sensitive",
           "severity": "WARN",
           "description": "Infrastructure detail",
-          "count": 69
+          "count": 69,
+          "samples": [
+            "initial-scale=1.0\"/> <title>Artemis DEP Sewer Utility Intelligence Bridge \u2014 RC8.4 Dua",
+            "nt-size:8.8px}} /* ---------- RC5 DEP Sewer Utility Standards Lens ---------- */ .d",
+            "rLead\">Artemis turns one representative sewer utility model into a shared operational",
+            "elligence bridge showing one parametric sewer model feeding BIM, QTO, cost codes, EVM",
+            "A Reviewer</div><p>Trace representative sewer-standard assumptions into geometry, qua"
+          ]
         },
         {
           "rule_id": "license.attribution",
           "severity": "INFO",
           "description": "License/attribution indicator",
-          "count": 2
+          "count": 2,
+          "samples": [
+            "arks</td><td>Default Leaflet layer with attribution</td></tr> <tr><td>Alignment",
+            ".tileLayer(cfg.url,{maxZoom:cfg.maxZoom,attribution:cfg.attr}).addTo(map); const route=[["
+          ]
         }
       ]
     },
     {
-      "id": "dep-sewer-utility-bridge-public-demo",
-      "source": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean(1).html",
+      "source": "intake/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean.html",
       "sha256": "27bd901e2fc33b7bea7f187fb2b8f435f0c93079137500f5699d70468f3ae7fe",
+      "size_bytes": 396683,
       "decision": "WARN",
       "findings": [
         {
           "rule_id": "claims.language",
           "severity": "WARN",
           "description": "Claims-related content",
-          "count": 36
+          "count": 36,
+          "samples": [
+            "===== RC8 \u2014 Public/Dev mode + Actuals & Claims Demo Studio ===== */ body.public .devOn",
+            "RC8 \u00b7 Public Demo \u00b7 GIS \u00b7 Actuals &amp; Claims</span> <span class=\"modeBadge\" id=\"mode",
+            "s=\"tab\" data-t=\"tActuals\">Actuals &amp; Claims</div> <div class=\"tab\" data-t=\"tRis",
+            " <div class=\"acTitle\">Actuals &amp; Claims Demo Studio</div> <div clas",
+            "oduction \u2192 actual cost \u2192 earned value \u2192 claim \u2192 approval \u2192 payment \u2192 cashflow</div> "
+          ]
         },
         {
           "rule_id": "cost.actuals",
           "severity": "WARN",
           "description": "Cost or actuals content",
-          "count": 195
+          "count": 195,
+          "samples": [
+            "))}} /* ===== RC8 \u2014 Public/Dev mode + Actuals & Claims Demo Studio ===== */ body.publ",
+            ":var(--gold)\">RC8 \u00b7 Public Demo \u00b7 GIS \u00b7 Actuals &amp; Claims</span> <span class=\"modeBa",
+            " </div> <div class=\"field\"><label>Forecast method</label><select id=\"forecastMetho",
+            "ption value=\"actual_unit_cost\" selected>Actual unit cost</option><option value=\"budget",
+            ">\u2014</b></div> <div class=\"row\"><span>Forecast margin</span><b id=\"hudMargin\">\u2014</b></d"
+          ]
         },
         {
           "rule_id": "project.identifiers",
           "severity": "WARN",
           "description": "Project or contract identifier",
-          "count": 32
+          "count": 32,
+          "samples": [
+            "c1e;color:#f2cf86} /* ---------- RC7.2 project controls, color grouping, notification center --",
+            "ass=\"hbtn\" id=\"btnControls\" title=\"Open project controls, notifications, warnings, and reconcili",
+            "certification, and not a substitute for contract reconciliation.<br><br>DEP-style sewer geometry create",
+            ">\u2014</b></div> <div class=\"row\"><span>Bid value</span><b id=\"hudRev\">\u2014</b></div> <d",
+            "d design comments, agency direction, or contract records.</div> </div> <div id=\"segmentDetai"
+          ]
         },
         {
           "rule_id": "infrastructure.sensitive",
           "severity": "WARN",
           "description": "Infrastructure detail",
-          "count": 65
+          "count": 65,
+          "samples": [
+            "initial-scale=1.0\"/> <title>Artemis DEP Sewer Utility Intelligence Bridge \u2014 RC7.3 Eas",
+            "nt-size:8.8px}} /* ---------- RC5 DEP Sewer Utility Standards Lens ---------- */ .d",
+            "eader> <div class=\"brand\">Artemis DEP Sewer Utility Intelligence Bridge <span style",
+            "rl+Alt+D)\">PUBLIC</span> <small>DEP Sewer Utility System / Standards \u00b7 Field-to-E",
+            "n\" id=\"btnDEPStandards\" title=\"Open DEP Sewer Utility Standards Lens (P)\">\u2699 DEP Stand"
+          ]
         },
         {
           "rule_id": "license.attribution",
           "severity": "INFO",
           "description": "License/attribution indicator",
-          "count": 2
+          "count": 2,
+          "samples": [
+            "arks</td><td>Default Leaflet layer with attribution</td></tr> <tr><td>Alignment",
+            ".tileLayer(cfg.url,{maxZoom:cfg.maxZoom,attribution:cfg.attr}).addTo(map); const route=[["
+          ]
+        }
+      ]
+    },
+    {
+      "source": "intake/artemis_diana_moonshot_demonstrator_v3.html",
+      "sha256": "edf48ff1c51a2ffeffc9664879f471245c66bd43d25e069e60dcdb983156bc0e",
+      "size_bytes": 5738277,
+      "decision": "WARN",
+      "findings": [
+        {
+          "rule_id": "project.identifiers",
+          "severity": "WARN",
+          "description": "Project or contract identifier",
+          "count": 7,
+          "samples": [
+            "jXk+x6KwMo8d3+KO2tjVG1k+ItStUTapSpvxkJC/BIDazLvOlCyzsC93YHkVApS8DUo108g7JmbHoPVCnDZ5VbRtBSL73/hmnWe3eg+CrGJFrmLRkskuFqMxgUOLG/OtbbPPZml8AKVFWi",
+            "vMw6Uoyu8AAYxera03CfyzfWseHlxFmcRyIp/H0/bidUGXduSxFmwLtm9hx104oAgezs4cuEOunZdjEP9r0AAAEABJREFUbrlI0j6ceSCmgtXqnBrfbt9DUeu4Hn7VMYgvSS3MDWlKyp/YajV9S7Y+kXbfnAp29FHIVVcSUrOWcSSjtKF++7Y9lK1w6Jt",
+            "CfCk5CkEE95UZdZo+Hy4UXOP/rTYY00cKLNroFY+bidXTktv/sjp87mxzoqAlGy6JZTxojOYHcbnV9n4qwzMbsvTBtBPpN9rd6ZyP01o35uIJosBDUm95QZeyzg1VmhYoLIyhzH+Cech8okIWVOfyNSkdl1NVnQhtFxm0nZcufIJa8q",
+            "q37askoc2V6EO95iI9BsspClX9pn2iw8SpvRbs7/biDEH3pZB8t233dYeIYUEfJ84P46gc06zAcNNjy2RcrB5pq3HyyABG2j2VCDvIgoY1SZT7Bd7uHEVVGHmQBKEaGck2aWnZiYlKHCbzJ2bDEOemHYbCGjmaHPpZz17jBm2CZeVEQkJXhlICK6/RcdOixapjhdMW1ibnYdzX+Kt+iunxeHtrF1bsNPXCklhWmJW06o+1fiEWrkXP",
+            "PEzJwF4ZAxmLp6u/uw0k2KAVCvBQwtIfMzgUcQh/Bid379vtk5iaIQB/AfZh5nJsa0K+880694+F3agCn/NTTz+gqMmLOJSgi247DGE37kc"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "intake/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED.html",
+      "sha256": "000185343a6b77b83dfb044282b0b96343b783f0f0871e4542cb3ed450deb1a8",
+      "size_bytes": 3387595,
+      "decision": "WARN",
+      "findings": [
+        {
+          "rule_id": "project.identifiers",
+          "severity": "WARN",
+          "description": "Project or contract identifier",
+          "count": 1,
+          "samples": [
+            "jXk+x6KwMo8d3+KO2tjVG1k+ItStUTapSpvxkJC/BIDazLvOlCyzsC93YHkVApS8DUo108g7JmbHoPVCnDZ5VbRtBSL73/hmnWe3eg+CrGJFrmLRkskuFqMxgUOLG/OtbbPPZml8AKVFWi"
+          ]
         }
       ]
     }
