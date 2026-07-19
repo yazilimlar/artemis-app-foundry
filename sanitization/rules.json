@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "severity_order": [
+    "INFO",
+    "WARN",
+    "BLOCKED"
+  ],
+  "rules": [
+    {
+      "id": "secret.private-key",
+      "severity": "BLOCKED",
+      "pattern": "-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----",
+      "description": "Private key material"
+    },
+    {
+      "id": "secret.aws-key",
+      "severity": "BLOCKED",
+      "pattern": "AKIA[0-9A-Z]{16}",
+      "description": "AWS access key"
+    },
+    {
+      "id": "secret.stripe-live",
+      "severity": "BLOCKED",
+      "pattern": "sk_live_[A-Za-z0-9]{16,}",
+      "description": "Stripe live secret key"
+    },
+    {
+      "id": "secret.generic",
+      "severity": "BLOCKED",
+      "pattern": "(?i)(api[_-]?key|secret|token)\\s*[:=]\\s*[\"'][A-Za-z0-9_\\-]{20,}[\"']",
+      "description": "Possible embedded secret"
+    },
+    {
+      "id": "pii.email",
+      "severity": "WARN",
+      "pattern": "[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}",
+      "flags": "i",
+      "description": "Email address"
+    },
+    {
+      "id": "pii.phone",
+      "severity": "WARN",
+      "pattern": "(?:\\+?1[-.\\s]?)?\\(?\\d{3}\\)?[-.\\s]\\d{3}[-.\\s]\\d{4}",
+      "description": "US phone number"
+    },
+    {
+      "id": "geo.coordinates",
+      "severity": "WARN",
+      "pattern": "-?\\d{1,3}\\.\\d{4,}\\s*,\\s*-?\\d{1,3}\\.\\d{4,}",
+      "description": "Precise geographic coordinate"
+    },
+    {
+      "id": "claims.language",
+      "severity": "WARN",
+      "pattern": "(?i)\\b(claim|claims|change order|entitlement|delay damages|notice of claim)\\b",
+      "description": "Claims-related content"
+    },
+    {
+      "id": "cost.actuals",
+      "severity": "WARN",
+      "pattern": "(?i)\\b(actuals?|cost to date|forecast|invoice|payment application|unit price)\\b",
+      "description": "Cost or actuals content"
+    },
+    {
+      "id": "project.identifiers",
+      "severity": "WARN",
+      "pattern": "(?i)\\b(contract|project|bid|solicitation)\\s*(?:no\\.?|number|#)?\\s*[:#-]?\\s*[A-Z0-9][A-Z0-9._/-]{4,}\\b",
+      "description": "Project or contract identifier"
+    },
+    {
+      "id": "infrastructure.sensitive",
+      "severity": "WARN",
+      "pattern": "(?i)\\b(sewer|water main|utility alignment|manhole|outfall|critical infrastructure)\\b",
+      "description": "Infrastructure detail"
+    },
+    {
+      "id": "license.attribution",
+      "severity": "INFO",
+      "pattern": "(?i)\\b(creative commons|cc-by|sketchfab|attribution|license)\\b",
+      "description": "License/attribution indicator"
+    }
+  ]
+}

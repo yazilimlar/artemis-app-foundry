@@ -1,0 +1,124 @@
+{
+  "scanner_version": "2.0.0",
+  "generated_at": "2026-07-18T23:57:37.445180+00:00",
+  "reports": [
+    {
+      "id": "geometric-workbench-legacy-3-6-1",
+      "source": "/mnt/data/ARTEMIS_v3_6_1_download(3).html",
+      "sha256": "07a6a57f7e24ddd1882835d071931978f97c7ca2c6c80197f6acf10ab6f95265",
+      "decision": "WARN",
+      "findings": [
+        {
+          "rule_id": "project.identifiers",
+          "severity": "WARN",
+          "description": "Project or contract identifier",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "diana-threejs-viewer",
+      "source": "/mnt/data/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED(1).html",
+      "sha256": "000185343a6b77b83dfb044282b0b96343b783f0f0871e4542cb3ed450deb1a8",
+      "decision": "WARN",
+      "findings": [
+        {
+          "rule_id": "project.identifiers",
+          "severity": "WARN",
+          "description": "Project or contract identifier",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "diana-moonshot-demonstrator",
+      "source": "/mnt/data/artemis_diana_moonshot_demonstrator_v3(5).html",
+      "sha256": "edf48ff1c51a2ffeffc9664879f471245c66bd43d25e069e60dcdb983156bc0e",
+      "decision": "WARN",
+      "findings": [
+        {
+          "rule_id": "project.identifiers",
+          "severity": "WARN",
+          "description": "Project or contract identifier",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "dep-sewer-utility-bridge-rc8-4",
+      "source": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened(4).html",
+      "sha256": "0c7ea6ba281cae03d9d285b6c5ddc835c402b25adca07a51f15b4e7cefc1f988",
+      "decision": "WARN",
+      "findings": [
+        {
+          "rule_id": "claims.language",
+          "severity": "WARN",
+          "description": "Claims-related content",
+          "count": 132
+        },
+        {
+          "rule_id": "cost.actuals",
+          "severity": "WARN",
+          "description": "Cost or actuals content",
+          "count": 301
+        },
+        {
+          "rule_id": "project.identifiers",
+          "severity": "WARN",
+          "description": "Project or contract identifier",
+          "count": 39
+        },
+        {
+          "rule_id": "infrastructure.sensitive",
+          "severity": "WARN",
+          "description": "Infrastructure detail",
+          "count": 69
+        },
+        {
+          "rule_id": "license.attribution",
+          "severity": "INFO",
+          "description": "License/attribution indicator",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dep-sewer-utility-bridge-public-demo",
+      "source": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean(1).html",
+      "sha256": "27bd901e2fc33b7bea7f187fb2b8f435f0c93079137500f5699d70468f3ae7fe",
+      "decision": "WARN",
+      "findings": [
+        {
+          "rule_id": "claims.language",
+          "severity": "WARN",
+          "description": "Claims-related content",
+          "count": 36
+        },
+        {
+          "rule_id": "cost.actuals",
+          "severity": "WARN",
+          "description": "Cost or actuals content",
+          "count": 195
+        },
+        {
+          "rule_id": "project.identifiers",
+          "severity": "WARN",
+          "description": "Project or contract identifier",
+          "count": 32
+        },
+        {
+          "rule_id": "infrastructure.sensitive",
+          "severity": "WARN",
+          "description": "Infrastructure detail",
+          "count": 65
+        },
+        {
+          "rule_id": "license.attribution",
+          "severity": "INFO",
+          "description": "License/attribution indicator",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

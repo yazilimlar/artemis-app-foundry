@@ -1,0 +1,15 @@
+{
+  "name": "artemis-app-foundry",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "qa:install": "playwright install chromium",
+    "qa:browser": "node qa/browser_qa.mjs config/targets.json reports/browser-qa",
+    "qa:sanitize": "python3 sanitization/scan.py --rules sanitization/rules.json --out reports/sanitization-report.json",
+    "qa:all": "npm run qa:browser"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  }
+}

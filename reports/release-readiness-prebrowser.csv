@@ -1,0 +1,6 @@
+id,browser_decision,sanitization_decision,policy_gate,final_decision,note
+geometric-workbench-legacy-3-6-1,PENDING,WARN,WARN,WARN,Browser QA pending local Playwright execution
+diana-threejs-viewer,PENDING,WARN,WARN,WARN,Browser QA pending local Playwright execution
+diana-moonshot-demonstrator,PENDING,WARN,WARN,WARN,Browser QA pending local Playwright execution
+dep-sewer-utility-bridge-rc8-4,PENDING,WARN,BLOCKED,BLOCKED,Browser QA pending local Playwright execution
+dep-sewer-utility-bridge-public-demo,PENDING,WARN,BLOCKED,BLOCKED,Browser QA pending local Playwright execution

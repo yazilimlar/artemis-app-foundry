@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "id": "geometric-workbench-legacy-3-6-1",
+      "source": "/mnt/data/ARTEMIS_v3_6_1_download(3).html",
+      "expected_family": "geometry-fabrication",
+      "exposure": "internal",
+      "interaction_selectors": [
+        "button",
+        "select",
+        "input[type=range]"
+      ],
+      "public_release_gate": "WARN"
+    },
+    {
+      "id": "diana-threejs-viewer",
+      "source": "/mnt/data/artemis_diana_threejs_viewer_STANDALONE_EMBEDDED(1).html",
+      "expected_family": "cultural-intelligence",
+      "exposure": "controlled-demo",
+      "interaction_selectors": [
+        "#btnRotate",
+        "#btnWire",
+        "#btnBronze",
+        "#btnFloor",
+        "#btnReframe",
+        "#btnLight"
+      ],
+      "public_release_gate": "WARN"
+    },
+    {
+      "id": "diana-moonshot-demonstrator",
+      "source": "/mnt/data/artemis_diana_moonshot_demonstrator_v3(5).html",
+      "expected_family": "cultural-intelligence",
+      "exposure": "controlled-demo",
+      "interaction_selectors": [
+        "#tourBtn",
+        "#moonShotBtn",
+        "#modeBtn",
+        "#resetBtn"
+      ],
+      "public_release_gate": "WARN"
+    },
+    {
+      "id": "dep-sewer-utility-bridge-rc8-4",
+      "source": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_4_Dual_Story_Cockpit_Field_Claims_Hardened(4).html",
+      "expected_family": "infrastructure-intelligence",
+      "exposure": "controlled-demo",
+      "interaction_selectors": [
+        "button",
+        "select",
+        "input"
+      ],
+      "public_release_gate": "BLOCKED"
+    },
+    {
+      "id": "dep-sewer-utility-bridge-public-demo",
+      "source": "/mnt/data/Artemis_DEP_Sewer_Utility_Intelligence_Bridge_RC8_Public_Demo_GIS_Actuals_Clean(1).html",
+      "expected_family": "infrastructure-intelligence",
+      "exposure": "public-demo",
+      "interaction_selectors": [
+        "button",
+        "select",
+        "input"
+      ],
+      "public_release_gate": "BLOCKED"
+    }
+  ]
+}

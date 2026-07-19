@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "id": "geometric-workbench-legacy-3-6-1",
+      "browser_decision": "PENDING",
+      "sanitization_decision": "WARN",
+      "policy_gate": "WARN",
+      "final_decision": "WARN",
+      "note": "Browser QA pending local Playwright execution"
+    },
+    {
+      "id": "diana-threejs-viewer",
+      "browser_decision": "PENDING",
+      "sanitization_decision": "WARN",
+      "policy_gate": "WARN",
+      "final_decision": "WARN",
+      "note": "Browser QA pending local Playwright execution"
+    },
+    {
+      "id": "diana-moonshot-demonstrator",
+      "browser_decision": "PENDING",
+      "sanitization_decision": "WARN",
+      "policy_gate": "WARN",
+      "final_decision": "WARN",
+      "note": "Browser QA pending local Playwright execution"
+    },
+    {
+      "id": "dep-sewer-utility-bridge-rc8-4",
+      "browser_decision": "PENDING",
+      "sanitization_decision": "WARN",
+      "policy_gate": "BLOCKED",
+      "final_decision": "BLOCKED",
+      "note": "Browser QA pending local Playwright execution"
+    },
+    {
+      "id": "dep-sewer-utility-bridge-public-demo",
+      "browser_decision": "PENDING",
+      "sanitization_decision": "WARN",
+      "policy_gate": "BLOCKED",
+      "final_decision": "BLOCKED",
+      "note": "Browser QA pending local Playwright execution"
+    }
+  ]
+}

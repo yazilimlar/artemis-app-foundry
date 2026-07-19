@@ -1,22 +1,23 @@
-# ARTEMIS App Foundry — Phase 1
+# ARTEMIS App Foundry — Phase 2
 
-Phase 1 adds an executable intake scanner and a first portfolio-wide intake report.
+Phase 2 adds executable browser QA, responsive screenshots, console/network capture,
+interaction smoke testing, sanitization rules, and release decisions.
 
-## Included
+## Components
 
-- `scanner/intake_scan.py`
-- `scanner/intake-report.schema.json`
-- `reports/portfolio-intake-report.json`
-- `reports/portfolio-intake-report.md`
-- `reports/portfolio-summary.csv`
-- `docs/INSTALL_AND_RUN.md`
-- `docs/PHASE_2_PLAN.md`
+- `qa/browser_qa.mjs`
+- `sanitization/scan.py`
+- `sanitization/rules.json`
+- `scripts/merge_release_decisions.py`
+- `config/targets.json`
+- `reports/sanitization-report.json`
+- `reports/release-readiness-prebrowser.csv`
 
-## Scope
+## Decision model
 
-The scanner inventories HTML and ZIP files, fingerprints sources, extracts titles,
-detects CDN dependencies and embedded data assets, flags licensing terms, identifies
-basic data-sensitivity indicators, recommends a repository/product family, and assigns
-a preliminary exposure recommendation.
+- `PASS`: no release-blocking finding
+- `WARN`: review required before public release
+- `BLOCKED`: public release prohibited until resolved
 
-It does not replace browser execution, legal review, security review, or data-owner approval.
+The static sanitization report is included. Browser results are generated locally because
+the applications use WebGL, local files, downloads, and external CDNs.
